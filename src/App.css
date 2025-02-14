@@ -1,3 +1,27 @@
 .App {
+  display: grid;
   text-align: center;
+  padding-top: 40px;
+}
+
+.login-form-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: left;
+  max-width: 760px;
+  justify-self: center;
+}
+
+.login-form-group > * {
+  width: 30%;
+}
+
+.token-text {
+  font-size: 0.4rem;
+  max-width: 760px;
+  overflow-wrap: break-word;
+  justify-self: center;
+  margin-top: 8px;
+  text-align: left;
 }
