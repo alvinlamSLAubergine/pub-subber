@@ -1,8 +1,10 @@
 import { useRef, useState } from 'react';
 import './GroupEntityForm.css';
 
+const dev_url = 'https://api-dev-prisma.entity-management.agridence.com/';
+const prod_url = 'https://api-platform.entity-management.prismabyrspo.org/';
 const fetchURL = (name) =>
-  `https://api-dev-prisma.entity-management.agridence.com/api/v1/group-entity/${name}`;
+  `${prod_url}api/v1/group-entity/${name}`;
 
 function fetchData (token, name) {
   return fetch(fetchURL(name), {

@@ -3,8 +3,11 @@ import { useCallback, useRef, useState } from 'react';
 const dev_url = (firebaseApiKey) => 
   `https://api-dev-prisma.gateway.agridence.com/auth/v1/accounts:signInWithPassword?key=${firebaseApiKey}`;
 
+const prod_url = (firebaseApiKey) =>
+  `https://api-platform.gateway.prismabyrspo.org/auth/v1/accounts:signInWithPassword?key=${firebaseApiKey}`;
+
 async function login(firebaseApiKey, firebaseTenantId, email, password) {
-  return fetch(dev_url(firebaseApiKey), {
+  return fetch(prod_url(firebaseApiKey), {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
