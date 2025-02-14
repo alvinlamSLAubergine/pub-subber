@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pub-subber/static/css/main.5fb28b4d.css",
+    "main.js": "/pub-subber/static/js/main.c144cd8a.js",
+    "index.html": "/pub-subber/index.html",
+    "main.5fb28b4d.css.map": "/pub-subber/static/css/main.5fb28b4d.css.map",
+    "main.c144cd8a.js.map": "/pub-subber/static/js/main.c144cd8a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5fb28b4d.css",
+    "static/js/main.c144cd8a.js"
+  ]
+}
