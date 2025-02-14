@@ -1,0 +1,25 @@
+.group-entity-form {
+  width: 760px;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.group-entity-name-input {
+  width: 600px;
+}
+
+.group-entity-name-group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.group-entity-form-textarea {
+  margin-top: 16px;
+  resize: none;
+}
+
+.group-entity-form input {
+  font-size: 1rem;
+}

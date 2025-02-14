@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+import { GroupEntityForm } from './GroupEntityForm';
 import { LoginForm } from './LoginForm';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <LoginForm updateToken={(token) => setToken(token)}/>
+      <GroupEntityForm token={token}/>
     </div>
   );
 }
